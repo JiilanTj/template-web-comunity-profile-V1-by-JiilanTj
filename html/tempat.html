@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Prestasi NTC (Nine Taekwondo champion)</title>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	// fungsi initialize untuk mempersiapkan peta
+	function initialize() {
+	var propertiPeta = {
+	center:new google.maps.LatLng(-0.039705,109.314297),
+	zoom:35,
+	mapTypeId:google.maps.MapTypeId.ROADMAP
+	};
+	
+	var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+	}
+	
+	// event jendela di-load  
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	
+	
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+	</style>
+	<link rel="stylesheet" type="text/css"
+	media="all" href="../css/style2.css">
+</head>
+<body>
+	<div id="layout2">
+		<div id="header">
+		<img src="../image/header.jpg"  class="header">
+		<div class="teks header">
+		
+		     <h2>Beranda</h2>
+		     <p> Anda Dapat memilih halaman di bagian beranda</p>
+		
+		</div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="../index.html">Beranda</a></li>
+				<li><a href="tentang.html">Tentang Nine Taekwondo Champion</a></li>
+				<li><a href="tempat.html">Tempat Latihan NTC</a></li>
+				<li><a href="kontaksanim.html">Daftar ke NTC</a></li>
+				<li><a href="kontakadmin.html">Kontak Admin</a></li>
+				<li><a href="prestasi.html">Prestasi NTC</a></li>
+				<li><a href="kontakadmin.html">Pasang Iklan Anda</a></li>
+			</ul>
+			</div>
+		<div id="runningtext">
+		<marquee direction="left">
+			Selamat Datang di Website Official Dari Nine Taekwondo Champion Pontianak
+		</marquee>
+		</div>
+		<div id="sidebar">
+		<div class="widged">
+		<img src="../image/iklan.png" class="gambariklan">
+		</div><div class="widged">
+	
+	
+		<ul>
+		<li> <a href="kontakadmin.html">Slot Iklan Ada 3 Yaaa</a> </li>
+			<li> <a href="kontakadmin.html">Daftarkan Iklan Anda Disini(Klik Disini)</a> </li>
+			<li> <a href="kontakadmin.html">Kontak Ke Admin Website Untuk Nego Harga Iklan(Klik Disini) </a> </li>
+		</ul>
+		</div>
+		</div>
+		<div id="isi">
+			<div class="isiposting2">
+			<h2><center> Lokasi NTC </center></h2>
+				<!--menampilkan gambar-->
+			<br><br>
+			<h1> <center> LOKASI 1 </center> </h1>
+			<h2><center> DIBAWAH INI DI SMPN 9 PONTIANAK Jalan Pangeran Nata Kusuma  </center> </h2>
+			
+			<div id="googleMap" style="width:100%;height:380px;"></div>
+			
+			<p> 
+			
+			</p>
+			
+		
+		   <p> ada juga lokasi lainnya yaitu di MIS AL-IKWAH JALAN PANGERAN NATAKUSUMA </p>
+		<a href="kontaksanim.html" > untuk lebih lengkapnya bisa chat le sanim (klik teks ini) </a>
+		
+			</div>
+			
+		</div><br>
+			<div id="footer">
+			<center>Copyright &copy; 2020
+			Created And designed by Jiilan N.T And Supported By Team Indonesia Cyber Swat (I.C.S)</center>
+			</div>
+</body>
+</html>
